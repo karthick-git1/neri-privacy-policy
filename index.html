@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - NERI Legal Case Management</title>
+    <meta name="description" content="Privacy Policy for NERI - Legal Case Management Android App. We do not collect or share any personal identification details.">
+    <style>
+        :root {
+            --primary: #0F264A;
+            --primary-light: #1E3A8A;
+            --accent: #B8860B;
+            --accent-light: #F59E0B;
+            --bg: #F8FAFC;
+            --surface: #FFFFFF;
+            --text-main: #1E293B;
+            --text-muted: #64748B;
+            --border: #E2E8F0;
+            --success: #10B981;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg);
+            color: var(--text-main);
+            line-height: 1.7;
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--primary) 0%, #1e1b4b 100%);
+            color: white;
+            padding: 3rem 1.5rem 2.5rem;
+            text-align: center;
+            border-bottom: 4px solid var(--accent);
+        }
+
+        .header-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .badge {
+            display: inline-block;
+            background: rgba(184, 134, 11, 0.25);
+            color: #FDE68A;
+            border: 1px solid var(--accent);
+            padding: 0.35rem 0.85rem;
+            border-radius: 9999px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            margin-bottom: 1rem;
+        }
+
+        h1 {
+            font-size: 2.25rem;
+            font-weight: 800;
+            letter-spacing: -0.025em;
+            margin-bottom: 0.75rem;
+        }
+
+        .subtitle {
+            font-size: 1.1rem;
+            color: #E2E8F0;
+            max-width: 600px;
+            margin: 0 auto 1.25rem;
+        }
+
+        .meta {
+            font-size: 0.875rem;
+            color: #94A3B8;
+        }
+
+        main {
+            max-width: 840px;
+            margin: -1.5rem auto 3rem;
+            padding: 0 1.25rem;
+        }
+
+        .card {
+            background: var(--surface);
+            border-radius: 12px;
+            border: 1px solid var(--border);
+            padding: 2.25rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+            margin-bottom: 1.75rem;
+        }
+
+        .highlight-box {
+            background-color: #ECFDF5;
+            border-left: 4px solid var(--success);
+            padding: 1.25rem 1.5rem;
+            border-radius: 6px;
+            margin-bottom: 1.75rem;
+        }
+
+        .highlight-box h3 {
+            color: #065F46;
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 1.15rem;
+        }
+
+        .highlight-box p {
+            color: #047857;
+            font-size: 0.975rem;
+            margin: 0;
+        }
+
+        h2 {
+            color: var(--primary);
+            font-size: 1.4rem;
+            font-weight: 700;
+            margin-top: 1.75rem;
+            margin-bottom: 0.85rem;
+            padding-bottom: 0.4rem;
+            border-bottom: 1px solid var(--border);
+        }
+
+        h2:first-of-type {
+            margin-top: 0;
+        }
+
+        p {
+            margin-bottom: 1rem;
+            color: #334155;
+            font-size: 1rem;
+        }
+
+        ul {
+            margin-bottom: 1.25rem;
+            padding-left: 1.5rem;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+            color: #334155;
+        }
+
+        li strong {
+            color: var(--primary);
+        }
+
+        .table-container {
+            overflow-x: auto;
+            margin: 1rem 0 1.5rem;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+            font-size: 0.95rem;
+        }
+
+        th, td {
+            padding: 0.75rem 1rem;
+            border: 1px solid var(--border);
+        }
+
+        th {
+            background-color: #F1F5F9;
+            color: var(--primary);
+            font-weight: 600;
+        }
+
+        tr:nth-child(even) {
+            background-color: #F8FAFC;
+        }
+
+        .contact-box {
+            background: #EFF6FF;
+            border: 1px solid #BFDBFE;
+            border-radius: 8px;
+            padding: 1.25rem 1.5rem;
+            margin-top: 1.5rem;
+        }
+
+        .contact-box p {
+            margin-bottom: 0.35rem;
+            color: #1E40AF;
+        }
+
+        .contact-box a {
+            color: var(--primary-light);
+            font-weight: 600;
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem 1rem;
+            color: var(--text-muted);
+            font-size: 0.875rem;
+            border-top: 1px solid var(--border);
+            background: white;
+        }
+
+        footer a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        @media (max-width: 640px) {
+            header {
+                padding: 2.25rem 1rem 2rem;
+            }
+            h1 {
+                font-size: 1.75rem;
+            }
+            .card {
+                padding: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="header-container">
+            <span class="badge">Official Privacy Policy</span>
+            <h1>NERI – Legal Case Management</h1>
+            <p class="subtitle">Complete transparency and privacy for legal practitioners, advocates, and chambers.</p>
+            <div class="meta">
+                <span>Application ID: <code>com.nyayaflow.neri</code></span> &bull; 
+                <span>Effective Date: November 24, 2026</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="card">
+            <div class="highlight-box">
+                <h3>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                        <path d="m9 12 2 2 4-4"/>
+                    </svg>
+                    Zero Data Collection Commitment
+                </h3>
+                <p>
+                    <strong>NERI does not collect, record, track, or share any personal information.</strong> We do not collect personal identification details, and we never sell, transmit, or disclose any user or client records to any third party or commercial tracking network.
+                </p>
+            </div>
+
+            <h2>1. Overview and Purpose</h2>
+            <p>
+                <strong>NERI – Legal Case Management System</strong> ("the Application", "we", "our") is designed specifically for legal professionals, advocates, law firms, and legal chambers to manage case dossiers, procedural workflows, judicial hearing dates, and drafting notes.
+            </p>
+            <p>
+                We hold advocate-client confidentiality and judicial privilege in the highest regard. This Privacy Policy outlines our strict privacy practices, explaining why and how the application operates without storing or sharing your data with external third parties.
+            </p>
+
+            <h2>2. Information Collection and Storage</h2>
+            <p>
+                <strong>No Personal Data Collection:</strong> We do not collect your name, email address, phone number, location, contacts, or government identification documents. 
+            </p>
+            <p>
+                <strong>Local & Private Infrastructure:</strong>
+            </p>
+            <ul>
+                <li><strong>On-Device Storage:</strong> Any configuration settings (such as custom server endpoints, preferences, or cached offline records) are saved strictly inside the application's sandboxed local private storage on your device.</li>
+                <li><strong>Direct Client-to-Chamber Architecture:</strong> When connected to your legal chamber's backend, data is communicated strictly between your mobile device and your chosen private legal server over encrypted HTTPS. No intermediate servers or developer telemetry hubs intercept this transmission.</li>
+                <li><strong>No Analytics or Tracking SDKs:</strong> The application does not embed third-party analytics trackers, advertising identifiers, behavioral monitors, or crash telemetry collection SDKs (such as Firebase Analytics, Facebook SDK, or AdMob).</li>
+            </ul>
+
+            <h2>3. Android Permissions & How They Are Used</h2>
+            <p>
+                NERI requests only the minimal system permissions essential for its core functionality:
+            </p>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Permission</th>
+                            <th>Purpose</th>
+                            <th>Data Shared?</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><code>android.permission.INTERNET</code></td>
+                            <td>Enables direct synchronization between the app and your chamber's legal management server, or for accessing public judicial listings (eCourts).</td>
+                            <td><strong>No</strong> (Only connects directly to configured servers)</td>
+                        </tr>
+                        <tr>
+                            <td><code>android.permission.ACCESS_NETWORK_STATE</code></td>
+                            <td>Detects internet availability to automatically switch to offline demonstration/fallback mode when disconnected.</td>
+                            <td><strong>No</strong> (Processed purely on-device)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p>
+                <strong>No Sensitive Permissions:</strong> NERI does <em>not</em> request or access sensitive device features such as Camera, Microphone, GPS/Fine Location, Address Book/Contacts, Call Logs, SMS, or External Shared Storage.
+            </p>
+
+            <h2>4. Third-Party Sharing</h2>
+            <p>
+                We do not sell, rent, lease, trade, or transfer personal identification information or case records to any external third party for commercial, advertising, marketing, or behavioral tracking purposes.
+            </p>
+            <p>
+                <strong>Public Judicial Services:</strong> When you utilize eCourts features (such as 16-character CNR lookups), the query retrieves publicly available court status directly from public records. No personal identification details or user identity information are transmitted during these requests.
+            </p>
+
+            <h2>5. Data Security</h2>
+            <p>
+                We employ industry-standard security practices to ensure application integrity:
+            </p>
+            <ul>
+                <li><strong>Transport Layer Security (TLS/HTTPS):</strong> All client-server communications use modern TLS encryption to safeguard data in transit against interception.</li>
+                <li><strong>Code Hardening:</strong> The application binary is compiled and protected with R8 minification to prevent tampering and ensure binary integrity.</li>
+                <li><strong>App Sandbox Isolation:</strong> All sensitive local cache is confined to Android's secure application sandbox, inaccessible to other apps installed on the device.</li>
+            </ul>
+
+            <h2>6. User Data Control and Deletion</h2>
+            <p>
+                Because we do not store your data on external developer servers, you retain full ownership and control over your records at all times:
+            </p>
+            <ul>
+                <li><strong>Clear App Data:</strong> You can clear all cached files and local configurations at any time via Android System Settings &gt; Apps &gt; NERI &gt; Storage &gt; Clear Storage.</li>
+                <li><strong>Uninstallation:</strong> Uninstalling the application automatically and permanently deletes all locally stored data, cache, and preferences associated with NERI from your device.</li>
+            </ul>
+
+            <h2>7. Children's Privacy</h2>
+            <p>
+                Our services are strictly oriented towards legal practitioners, law students, and chamber administrators. We do not knowingly solicit or collect information from children under the age of 13 (or under 16 in applicable jurisdictions).
+            </p>
+
+            <h2>8. Changes to This Privacy Policy</h2>
+            <p>
+                We may periodically update this policy to reflect application enhancements or regulatory requirements. Any updates will be published on this page with an updated "Effective Date".
+            </p>
+
+            <h2>9. Contact Us</h2>
+            <p>
+                If you have questions, concerns, or inquiries regarding this Privacy Policy or the security practices of NERI, please reach out to us:
+            </p>
+            <div class="contact-box">
+                <p><strong>Developer:</strong> Karthick / NyayaFlow Legal Tech</p>
+                <p><strong>Application:</strong> NERI – Legal Case Management System</p>
+                <p><strong>Email:</strong> <a href="mailto:s.karthick.tpgit@gmail.com">s.karthick.tpgit@gmail.com</a></p>
+                <p><strong>Repository:</strong> <a href="https://github.com/karthick-git1/neri-privacy-policy" target="_blank" rel="noopener">github.com/karthick-git1/neri-privacy-policy</a></p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 NERI – NyayaFlow Legal Case Management System. All rights reserved.</p>
+        <p style="margin-top: 0.35rem; font-size: 0.8rem;">
+            Hosted on GitHub Pages &bull; <a href="https://github.com/karthick-git1/neri-privacy-policy">Source Repository</a>
+        </p>
+    </footer>
+
+</body>
+</html>
